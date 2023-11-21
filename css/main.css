@@ -1,0 +1,31 @@
+/* main.css */
+body {
+    background-color: #f0f0f0; /* Lighter background */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    font-family: 'Arial', sans-serif; /* Updated font */
+}
+
+h3 {
+    text-align: center;
+    font-size: 1.5rem; /* Adjusted font size */
+    color: #333; /* Dark text color */
+}
+
+button {
+    padding: 15px 30px;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 1.2rem;
+    background-color: #ff6f61; /* Reddish color for buttons */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth hover transition */
+}
+
+button:hover {
+    background-color: #ff4d3f; /* Darker red on hover */
+}
